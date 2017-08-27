@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+	background-color: darkgrey;
+	border-radius: 25px;
+	position: relative;
+	height: 500px;
+	width: 500px;
+	margin: 0 auto;
+	top: 10%;
+}
+
+.wrap{
+	width: 80%;
+	height: 600px;
+	position: relative;
+	margin: 0 auto;
+	
+}
+div{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+	line-height: 100px;
+}
+
+
+li{
+	position: relative;
+	height: 100px;
+	width: 100px;
+	margin: 20px 0 0 20px;
+	float: left;
+}
+p{
+	position: relative;
+	color: orangered;
+	font-size: 20px;
+	line-height: 20px;
+	height: 20px;
+	top: 15%;
+	
+	
+}
+.m0{
+	background-image: url(../img/0.png);
+}
+
+.m4{
+	background-image: url(../img/4.png);
+}
+.m2{
+	background-image: url(../img/2.png);
+}
+
+.m8{
+	background-image: url(../img/8.png);
+}
+.m16{
+	background-image: url(../img/16.png);
+}
+.m32{
+	background-image: url(../img/32.png);
+}
+.m64{
+	background-image: url(../img/64.png);
+}
+.m128{
+	background-image: url(../img/128.png);
+}
+.m256{
+	background-image: url(../img/256.png);
+}
+.m512{
+	background-image: url(../img/512.png);
+}
+.m1024{
+	background-image: url(../img/1024.png);
+}
+.m2048{
+	background-image: url(../img/2048.png);
+}
+
+#score{
+	background-color: lightgrey;
+	color: cornflowerblue;
+	border-radius: 10px;
+	text-align: center;
+	position: relative;
+	height: 100px;
+	width: 150px;
+	margin: 0 auto;
+	top: 6%;	
+}
